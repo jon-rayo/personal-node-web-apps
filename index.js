@@ -14,4 +14,5 @@ app.get('/hello/', (req, res) => {
 const logMessage = 'Application listening on http://localhost:' + port
 app.listen(port, () => {
     console.log(logMessage)
+    console.log('..press Ctrl-C to terminate.\n')
 })
