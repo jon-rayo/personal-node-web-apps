@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 // Define the port.
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 
 // Define directory where static files will be served to run in the browser.
 app.use(express.static(__dirname + '/public'))
