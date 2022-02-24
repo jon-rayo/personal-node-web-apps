@@ -1,0 +1,22 @@
+{
+  "name": "personal-node-web-apps",
+  "version": "1.0.0",
+  "description": "all personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jon-rayo/personal-node-web-apps.git"
+  },
+  "author": "Jonathan Rayo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jon-rayo/personal-node-web-apps/issues"
+  },
+  "homepage": "https://github.com/jon-rayo/personal-node-web-apps#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
